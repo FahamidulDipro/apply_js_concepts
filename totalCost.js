@@ -18,14 +18,14 @@ const products = [{
     {
         item: 'camera',
         price: 20000,
-        quantity: 1
+        quantity: 2
     }
 ];
 let totalPrice = 0;
 let totalQuantity = 0;
 
 for (const product of products) {
-    totalPrice += product.price;
+    totalPrice += product.price * product.quantity;
     totalQuantity += product.quantity;
 }
 console.log('Total price: ', totalPrice, ' Total quantity: ', totalQuantity);
