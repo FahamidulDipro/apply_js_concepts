@@ -1,4 +1,3 @@
-function add(a, b) {
-    return a + b;
-}
-console.log(add("adam" + "eve"))
+sum = 0;
+for (let i = 0; i <= 3; i++) { sum = sum + i; }
+console.log(sum);
